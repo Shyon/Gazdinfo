@@ -2,7 +2,7 @@
 session_start();
 function code($chars)  
 {   
-  $chars0="0123456789abcdefghijklmnopqrttwxy"; 
+  $chars0="0123456789abcdefghijklmnopqrstuvwxyz"; 
   $result='';
   for($i=0;$i<$chars;$i++)   
   {
