@@ -1,2 +1,3 @@
-Eddig kész a Bejelentkezés és kijelentkezés, 
-ADATBÁZIS
+Eddig kész a Bejelentkezés és kijelentkezés, -> Felhasználó név, Jelszó
+ADATBÁZIS 
+
