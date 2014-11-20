@@ -12,5 +12,5 @@ $query="insert into users (nev, felhasznalo, jelszo, email) values ('".$_POST['n
 mysql_query($query) or die ("Nem sikerult"." ".$query);
 }
 mysql_close($con);
-echo '<meta http-equiv="refresh" content="0; URL=belepoellenorzes.php">';
+echo '<meta http-equiv="refresh" content="0; URL=belepes.php">';
 ?>
