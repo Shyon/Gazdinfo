@@ -21,7 +21,7 @@ else
 	<body>
 		<div id="gyujto">
 		<div id="menu">
-		<a href="regisztracio.php"><b>Regisztráció</b></a>
+		<a href="regisztraciourlap.php"><b>Regisztráció</b></a>
 		<a href="belepes.php"><b>Bejelentkezés</b></a>
 		<a href="kereses.php"><b>Keresés</b></a>
 		<a href="listazas.php"><b>Listázás</b></a>

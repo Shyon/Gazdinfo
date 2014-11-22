@@ -7,7 +7,7 @@
 	<body>
 		<div id="gyujto">
 		<div id="menu">
-		<a href="regisztracio.php"><b>Regisztráció</b></a>
+		<a href="regisztraciourlap.php"><b>Regisztráció</b></a>
 		<a href="belepes.php"><b>Bejelentkezés</b></a>
 		<a href="kereses.php"><b>Keresés</b></a>
 		<a href="listazas.php"><b>Listázás</b></a>
@@ -69,7 +69,7 @@ if(isset($_SESSION['felhasznalo']) && isset($_POST['chpcode']))
 		}
 		else
 		{
-			echo '<meta http-equiv="refresh" content="0; URL=regisztracio.php">';
+			echo '<meta http-equiv="refresh" content="0; URL=regisztraciourlap.php">';
 		}
 	}
 }	
