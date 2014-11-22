@@ -37,7 +37,7 @@ if(!isset($con))
 {
    echo "hiba".mysql_error(); 
 }
-mysql_select_db("Webebkeres");
+mysql_select_db("Webkereses");
 session_start();
 if(!isset($_SESSION['felhasznalo']))
 {
