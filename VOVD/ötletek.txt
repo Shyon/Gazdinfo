@@ -8,4 +8,8 @@ Kell egy tábla (Kereses), amibe minden keresésnél felvesszük a felhasználó nevét
 Kell egy tábla (Felhasznalo), amibe felvesszük a regisztrációs adatokat! (Név, Felhasználónév, Jelszó, E-mail-cím).
 
 Ha valaki keres, a Keresés gomb lenyomásával automatikusan tárolódik az adatbázisban a keresés helye(URL), a keresett szöveg, a keresõ felhasználóneve és az aktuális dátum.
->>>>>>> cb68c4fae1bcb29d2f06f209ba6165ad694fd45c
+
+Mûûûûködik!!! (Viki)
+A regisztráció során az adatokat a táblában helyezi el, ezután a már beregisztrált felhasználók be tudnak jelentkezni!!!
+JÖHET A KERESÉS!!!
+
