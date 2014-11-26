@@ -24,6 +24,10 @@
 		<td>
 		<b>Jelszó:</b> </td><td><input type="password" name="jelszo">
 		</td></tr>
+		<tr>
+		<td>
+		<b>email:</b> </td><td><input type="text" name="email">
+		</td></tr>
 		</table>
 		<input type="submit" value="Regisztrál">
 		</form>

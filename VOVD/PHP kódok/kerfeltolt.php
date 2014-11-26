@@ -6,9 +6,9 @@ if(!isset($_SESSION['felhasznalo']))
 }
 else
 {
-	if ($_SESSION['login'] == false)
+	if ($_SESSION['felhasznalo'] == false)
 	{
-		echo '<meta http-equiv="refresh" content="0; URL=regisztracio.php">';
+		echo '<meta http-equiv="refresh" content="0; URL=regisztraciourlap.php">';
 	}
 }
 ?>
@@ -34,8 +34,7 @@ else
 		</td></tr><tr>
 		<td>
 		<b>Keresendő szöveg:</b> </td><td><input type="text" name="kerszov">
-		</td></tr><tr>
-		<td>
+		</td></tr>
 		</table>
 		<input type="submit" value="Keresés">
 		</form>

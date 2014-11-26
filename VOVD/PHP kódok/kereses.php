@@ -1,19 +1,19 @@
 <?php
 session_start();
-$con=mysql_connect('localhost','root',"");
+$con=mysqli_connect('localhost','root',"");
 if(!isset($con))
 {
-	echo "hiba".mysql_error();
+	echo "hiba".mysqli_error();
 }
 $dbname="Webkereses";
-mysql_select_db($dbname);
+mysqli_select_db($con,$dbname);
 if($_POST['kerid']!="" && $_POST['felhasznalo']!="" && $_POST['url']!="" && $_POST['kerszov']!="" && $_POST['datum']!="")
 {
 	$query="insert into Kereses (kerid, felhasznalo, url, kerszov, datum) values (".$_POST['kerid'].",
 	'".$_POST['felhasznalo']."','".$_POST['url']."',".$_POST['kerszov'].",".$_POST['datum'].")";
-	mysql_query($query) or die ("Nem sikerult"." ".$query."  ".mysql_error());
+	mysqli_query($con,$query) or die ("Nem sikerult"." ".$query."  ".mysqli_error());
 
 }
-mysql_close($con);
+mysqli_close($con);
 echo '<meta http-equiv="refresh" content="0; URL=kerfeltolt.php">';
 ?>

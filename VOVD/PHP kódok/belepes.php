@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
@@ -32,13 +35,13 @@
 	</body>
 </html>
 <?php
-$con=mysql_connect('localhost',"root","");
+$con=mysqli_connect('localhost',"root","");
 if(!isset($con))
 {
-   echo "hiba".mysql_error(); 
+   echo "hiba".mysqli_error(); 
 }
-mysql_select_db("Webkereses");
-session_start();
+mysqli_select_db($con,"Webkereses");
+
 if(!isset($_SESSION['felhasznalo']))
 {
 	$_SESSION['felhasznalo']=false;
@@ -48,11 +51,12 @@ if(isset($_SESSION['felhasznalo']) && isset($_POST['chpcode']))
 	if($_SESSION['security_code']==$_POST['chpcode'])
 	{
 		$letezik = false;
-		if(isset ($_POST['login']) )
+		if(isset ($_POST['felhasznalo']) )
 		{
-			$query=("select * from Felhasznalo where felhasznalo='".$_POST['felhasznalo']."' and jelszo='".$_POST['jelszo']."' LIMIT 1");
-			$result=mysql_query($query);
-			if ($sor = mysql_fetch_assoc($result))
+			
+			$query=("select * from felhasznalo where felhasznalo='".$_POST['felhasznalo']."' and jelszo='".$_POST['jelszo']."' LIMIT 1");
+			$result=mysqli_query($con,$query);
+			if ($sor = mysqli_fetch_assoc($result))
 			{
 				$letezik = true;
 				$_SESSION['felhasznalo']=true;
@@ -65,7 +69,7 @@ if(isset($_SESSION['felhasznalo']) && isset($_POST['chpcode']))
 		}
 		if ($letezik==true)
 		{
-			echo '<meta http-equiv="refresh" content="0; URL=kereses.php">';
+			echo '<meta http-equiv="refresh" content="0; URL=kerfeltolt.php">';
 		}
 		else
 		{
