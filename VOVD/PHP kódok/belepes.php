@@ -12,7 +12,7 @@ session_start();
 		<div id="menu">
 		<a href="regisztraciourlap.php"><b>Regisztráció</b></a>
 		<a href="belepes.php"><b>Bejelentkezés</b></a>
-		<a href="kereses.php"><b>Keresés</b></a>
+		<a href="keresesurlap.php"><b>Keresés</b></a>
 		<a href="listazas.php"><b>Listázás</b></a>
 		</div>
 		<table id='belepes' border='1'>
@@ -69,7 +69,7 @@ if(isset($_SESSION['felhasznalo']) && isset($_POST['chpcode']))
 		}
 		if ($letezik==true)
 		{
-			echo '<meta http-equiv="refresh" content="0; URL=kerfeltolt.php">';
+			echo '<meta http-equiv="refresh" content="0; URL=keresesurlap.php">';
 		}
 		else
 		{

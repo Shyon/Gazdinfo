@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 $con=mysqli_connect('localhost','root',"");
 if(!isset($con))
 {
@@ -7,13 +7,13 @@ if(!isset($con))
 }
 $dbname="Webkereses";
 mysqli_select_db($con,$dbname);
-if($_POST['kerid']!="" && $_POST['felhasznalo']!="" && $_POST['url']!="" && $_POST['kerszov']!="" && $_POST['datum']!="")
+if($_POST['url']!="" && $_POST['kerszov']!="")
 {
-	$query="insert into Kereses (kerid, felhasznalo, url, kerszov, datum) values (".$_POST['kerid'].",
+	$query="insert into Kereses (kerid, felhasznalo, url, kerszov, datum) values ('".$_POST['kerid']."',
 	'".$_POST['felhasznalo']."','".$_POST['url']."',".$_POST['kerszov'].",".$_POST['datum'].")";
-	mysqli_query($con,$query) or die ("Nem sikerult"." ".$query."  ".mysqli_error());
+	mysqli_query($con,$query) or die ("Nem sikerult"." ".$query." ".mysqli_error());
 
 }
 mysqli_close($con);
-echo '<meta http-equiv="refresh" content="0; URL=kerfeltolt.php">';
+echo '<meta http-equiv="refresh" content="0; URL=keresesurlap.php">';
 ?>

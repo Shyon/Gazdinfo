@@ -2,14 +2,14 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title> Regisztráció </title>
-		<link rel="stylesheet" type="text/css" href="hajostilus.css">
+		<link rel="stylesheet" type="text/css" href="stilus.css">
 	</head>
 	<body>
 		<div id="gyujto">
 		<div id="menu">
 		<a href="regisztraciourlap.php"><b>Regisztráció</b></a>
 		<a href="belepes.php"><b>Bejelentkezés</b></a>
-		<a href="kereses.php"><b>Keresés</b></a>
+		<a href="keresesurlap.php"><b>Keresés</b></a>
 		<a href="listazas.php"><b>Listázás</b></a>
 		</div>
 		<table id='reg' border='1'>
