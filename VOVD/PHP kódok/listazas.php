@@ -33,13 +33,12 @@ if(!isset($con))
    echo "hiba".mysqli_error(); 
 }
 mysqli_select_db($con,"webkereses");
-$query="select kereses.felhasznalo, kereses.kerszov, kereses.datum from kereses";  
+$query="select kereses.url, kereses.kerszov from kereses";  
 $ertek=mysqli_query($con,$query) or die ("Nem sikerült".$query);
 echo "<table border=2>";
 echo "<tr>
-<td>Felhasználónév</td>
+<td>Keresés helye</td>
 <td>Keresett szöveg</td>
-<td>Keresés dátuma</td>
 </tr>";
 
 while(list($felhasznalo,$kerszov,$datum)=mysqli_fetch_row($ertek))
