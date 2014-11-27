@@ -1,2 +1,8 @@
 Rövid leírás a projektekrõl
-kjkjkj
+
+VOVD csapat:
+-Mulyad Orsolya
+-Budai Viktória
+-Sándor Dániel
+-Kis Vencel
+Projekt: Webes keresõ program 
