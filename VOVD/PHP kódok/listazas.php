@@ -37,13 +37,13 @@ $query="select kereses.url, kereses.kerszov from kereses";
 $ertek=mysqli_query($con,$query) or die ("Nem sikerült".$query);
 echo "<table border=2>";
 echo "<tr>
-<td>Keresés helye</td>
+<td>Keresés helye (URL cím)</td>
 <td>Keresett szöveg</td>
 </tr>";
 
-while(list($felhasznalo,$kerszov,$datum)=mysqli_fetch_row($ertek))
+while(list($url,$kerszov)=mysqli_fetch_row($ertek))
 {
-	echo "<tr><td>$felhasznalo</td><td>$kerszov</td><td>$datum</td></tr>";
+	echo "<tr><td>$url</td><td>$kerszov</td></tr>";
 }
 echo "</table>";
 mysqli_close($con);

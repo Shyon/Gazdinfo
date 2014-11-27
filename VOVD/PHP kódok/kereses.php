@@ -14,5 +14,5 @@ if($_POST['url']!="" && $_POST['kerszov']!="")
 	mysqli_query($con,$query) or die ("Nem sikerult"." ".$query);
 }
 mysqli_close($con);
-echo '<meta http-equiv="refresh" content="0; URL=kereses.php">';
+echo '<meta http-equiv="refresh" content="0; URL=keresesurlap.php">';
 ?>
