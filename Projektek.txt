@@ -6,3 +6,10 @@ VOVD csapat:
 -Sándor Dániel
 -Kis Vencel
 Projekt: Webes keresõ program 
+
+LEVI'SZ csapat:
+-Szanyi Zoltán
+-Szûcs Dávid
+-Laczkó Gergely
+-Bodnár Zoltán
+Projekt: Póló webshop
