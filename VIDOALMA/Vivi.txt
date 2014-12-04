@@ -1,0 +1,95 @@
+CREATE TABLE Feher_bor (
+	id INT AUTO_INCREMENT,
+	nev VARCHAR(100),
+	tipus VARCHAR(20),
+	ar VARCHAR(50),
+	alkoholtartalom VARCHAR(50),
+	urtartalom VARCHAR(50),
+	evjarat DATE,
+	borvidek VARCHAR(50),
+	szolofajta VARCHAR(50),
+	darab VARCHAR(50),
+
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE Voros_bor (
+	id INT AUTO_INCREMENT,
+	nev VARCHAR(100),
+	tipus VARCHAR(20),
+	ar VARCHAR(50),
+	alkoholtartalom VARCHAR(50),
+	urtartalom VARCHAR(50),
+	evjarat DATE,
+	borvidek VARCHAR(50),
+	szolofajta VARCHAR(50),
+	darab VARCHAR(50),
+
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE Rose_bor (
+	id INT AUTO_INCREMENT,
+	nev VARCHAR(100),
+	tipus VARCHAR(20),
+	ar VARCHAR(50),
+	alkoholtartalom VARCHAR(50),
+	urtartalom VARCHAR(50),
+	evjarat DATE,
+	borvidek VARCHAR(50),
+	szolofajta VARCHAR(50),
+	darab VARCHAR(50),
+
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE Habzo_bor (
+	id INT AUTO_INCREMENT,
+	nev VARCHAR(100),
+	tipus VARCHAR(20),
+	ar VARCHAR(50),
+	alkoholtartalom VARCHAR(50),
+	urtartalom VARCHAR(50),
+	evjarat DATE,
+	borvidek VARCHAR(50),
+	szolofajta VARCHAR(50),
+	darab VARCHAR(50),
+
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE Pezsgo (
+	id INT AUTO_INCREMENT,
+	nev VARCHAR(100),
+	tipus VARCHAR(20),
+	ar VARCHAR(50),
+	alkoholtartalom VARCHAR(50),
+	urtartalom VARCHAR(50),
+	evjarat DATE,
+	videk VARCHAR(50),
+	szolofajta VARCHAR(50),
+	darab VARCHAR(50),
+
+	PRIMARY KEY (id)
+);
+
+
+	
+INSERT INTO `habzo_bor`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `borvidek`, `szolofajta`, `darab`) VALUES ('','VAYI
+Frizzante Dry','Habzóbor','1690 Ft','12%','0,75l','2013','Olaszliszk','12')
+
+INSERT INTO `habzo_bor`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `borvidek`, `darab`) VALUES ('','LÉGLI
+Boglárka Rosé','Gyöngyözõbor','1890 Ft','12%','0,75l','2013','Dél-Balaton','41')
+
+NSERT INTO `habzo_bor`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `borvidek`, `darab`) VALUES ('','CHIARLI
+Lambrusco Rosso','Habzóbor','1490 Ft','7,5%','0,75l','2011','Olaszország','41')
+
+INSERT INTO `habzo_bor`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `borvidek`, `darab`) VALUES ('','GERE
+Frici','Habzóbor','2450 Ft','12,7%','0,75l','2012','Villány','36')
+
+INSERT INTO `habzo_bor`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `borvidek`, `darab`) VALUES ('','PANNONHLMI','Habzóbor','1990 Ft','12,5%','0,75l','2013','Pannonhalma','29')
+
+	
+	
+	
+	
