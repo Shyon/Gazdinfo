@@ -13,6 +13,12 @@ if($_POST['url']!="" && $_POST['kerszov']!="")
 	'".$_POST['kerszov']."')";
 	mysqli_query($con,$query) or die ("Nem sikerult"." ".$query);
 }
+$cimzett= $_SESSION['email']; 
+ini_set('SMTP', 'smtp.ektf.hu');  
+mail($cimzett,  
+     "Keresés",  
+     "A keresési adatait adatbázisban rögzítettük, amint a weboldalon a keresett szöveg feltűnik, értesítjük Önt!",  
+     "From: webkeresess@gmail.com\r\n");
 mysqli_close($con);
 echo '<meta http-equiv="refresh" content="0; URL=keresesurlap.php">';
 ?>
