@@ -13,3 +13,4 @@ Mûûûûködik!!! (Viki)
 A regisztráció során az adatokat a táblában helyezi el, ezután a már beregisztrált felhasználók be tudnak jelentkezni!!!
 JÖHET A KERESÉS!!!
 
+SMTP, sMTP mindenhol!!!

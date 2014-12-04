@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+Eddig kész a Bejelentkezés és kijelentkezés, -> Felhasználó név, Jelszó (emailes megerõsítés kéne )
+=======
+<<<<<<< HEAD
+Eddig kész a Bejelentkezés és kijelentkezés, -> Felhasználó név, Jelszó (http://www.iluv2code.com/login-with-codeigniter-php.html)
+>>>>>>> a1d04388317b0696c3551cdd678db3bf3f548971
+ADATBÁZIS 
+Programok: 
+Xampp
+Code igniter 
+<<<<<<< HEAD
+MySQL -> Felhasználók, Mezõ név: username és pass 
+=======
+MySQL -> Felhasználók, Mezõ név: username és pass 
+=======
+>>>>>>> f7e039d63ddf4a8e7288d22d0916b87205f6385e
+>>>>>>> a1d04388317b0696c3551cdd678db3bf3f548971

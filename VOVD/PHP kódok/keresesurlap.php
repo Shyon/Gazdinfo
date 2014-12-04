@@ -8,7 +8,7 @@ else
 {
 	if ($_SESSION['felhasznalo'] == false)
 	{
-		echo '<meta http-equiv="refresh" content="0; URL=regisztraciourlap.php">';
+		echo '<meta http-equiv="refresh" content="0; URL=belepes.php">';
 	}
 }
 ?>
@@ -30,7 +30,7 @@ else
 		<tr>
 		<form action="kereses.php" method="POST" enctype="multipart/form-data">
 		<td>
-		<b>Keresés helye (URL-cím):</b> </td><td><input type="text" name="url">
+		<b>Keresés helye (URL-cím) (max. 500 karakter):</b> </td><td><input type="text" name="url">
 		</td></tr><tr>
 		<td>
 		<b>Keresendő szöveg:</b> </td><td><input type="text" name="kerszov">

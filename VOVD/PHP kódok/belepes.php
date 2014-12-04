@@ -61,6 +61,7 @@ if(isset($_SESSION['felhasznalo']) && isset($_POST['chpcode']))
 				$letezik = true;
 				$_SESSION['felhasznalo']=true;
 				$_SESSION['id']=$sor["id"];
+				$_SESSION['email']=$sor["email"];
 			}
 		}
 		else
