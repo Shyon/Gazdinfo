@@ -1,3 +1,4 @@
+<?php
 session_start();
 $con=mysqli_connect('localhost','root',"");
 if(!isset($con))
@@ -12,19 +13,12 @@ if($_POST['url']!="" && $_POST['kerszov']!="")
 	'".$_POST['kerszov']."')";
 	mysqli_query($con,$query) or die ("Nem sikerult"." ".$query);
 }
+$cimzett= $_SESSION['email']; 
 ini_set('SMTP', 'smtp.ektf.hu');  
-mail("bviktoria24@gmail.com",  
-     "a levél tárgya",  
-     "magának a levélnek\naz egyes sorai.",  
-     "From: webkeresess@gmail.com\r\n".  
-     "Reply-to: válaszoló@domain.hu");   
-
+mail($cimzett,  
+     "KeresÃ©s",  
+     "A keresÃ©si adatait adatbÃ¡zisban rÃ¶gzÃ­tettÃ¼k, amint a weboldalon a keresett szÃ¶veg feltÅ±nik, Ã©rtesÃ­tjÃ¼k Ã–nt!",  
+     "From: webkeresess@gmail.com\r\n");
 mysqli_close($con);
 echo '<meta http-equiv="refresh" content="0; URL=keresesurlap.php">';
-
-
-
-Na szóval!!!Létrehoztunk egy email címet, webkeresess@gmail.com
-jelszó: xxxxxxx1
-
-azért ha lehet az emailt állítsátok majd át a próbálkozásnál, nem szeretnék egy halom üzit:D
+?>
