@@ -14,3 +14,5 @@ A regisztráció során az adatokat a táblában helyezi el, ezután a már beregisztrá
 JÖHET A KERESÉS!!!
 
 SMTP, sMTP mindenhol!!!
+
+Fiúkák, a kereséseket a teszt_dokumentumba rakjátok már fel!-Viki
