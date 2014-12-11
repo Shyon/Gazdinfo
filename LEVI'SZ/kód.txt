@@ -1,0 +1,8 @@
+Codeigniter alap mappa.
+Codeigniter konfigurálása
+controller mappa
+views mappa
+database.php
+models mappa bennük tartalommal
+
+részekre botva.
