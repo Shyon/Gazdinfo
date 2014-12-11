@@ -16,3 +16,5 @@ JÖHET A KERESÉS!!!
 SMTP, sMTP mindenhol!!!
 
 Fiúkák, a kereséseket a teszt_dokumentumba rakjátok már fel!-Viki
+
+Sikeres a keresés. Apróbb javítások belerakva. ÜDv Vencel és Dani :)
