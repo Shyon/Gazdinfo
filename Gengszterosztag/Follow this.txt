@@ -1,0 +1,3 @@
+1 fõ az adatbázist készíti
+1 fõ a css-t
+2 fõ PHPben programoz
