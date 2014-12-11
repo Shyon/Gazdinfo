@@ -19,7 +19,10 @@ mail($cimzett,
      "Keresés",  
      "A keresési adatait adatbázisban rögzítettük, amint a weboldalon a keresett szöveg feltűnik, értesítjük Önt!",  
      "From: webkeresess@gmail.com\r\n");
-if 
+	 
+$url=$_POST['url'];
+$szo="http";
+if (szokeres($szo,$url))
 {
 	if(isset($_POST['url'])&& isset($_POST['kerszov']))
 	{
