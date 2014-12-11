@@ -16,3 +16,5 @@ JÖHET A KERESÉS!!!
 SMTP, sMTP mindenhol!!!
 
 Fiúkák, a kereséseket a teszt_dokumentumba rakjátok már fel!-Viki
+
+A keresésbe kell még egy while ciklus, amely addig keres, míg meg nem találja a keresett szöveget!

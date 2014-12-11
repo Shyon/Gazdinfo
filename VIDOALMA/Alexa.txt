@@ -1,0 +1,29 @@
+
+Pezsgõ tábla feltöltése:
+
+INSERT INTO `pezsgo`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `videk`, `darab`) VALUES ('','Törley Charmant','édes rosé','899 Ft','11,5%','0,75 l','2014','Etyeki borvidék','15')
+
+INSERT INTO `pezsgo`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `videk`, `darab`) VALUES ('','Törley Charmant','édes vörös','899 Ft','12%','0,75 l','2014','Etyeki borvidék','22')
+
+INSERT INTO `pezsgo`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `videk`, `darab`) VALUES ('','Törley Doux','Tokaji édes','1 449 Ft','11%','0,75 l','2014','Etyeki borvidék','17')
+
+INSERT INTO `pezsgo`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `videk`, `darab`) VALUES ('','Törley Charmant','édes fehér','319 Ft','11,5%','0,2 l','2014','Etyeki borvidék','9')
+
+INSERT INTO `pezsgo`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `videk`, `darab`) VALUES ('','Törley Magic Cuvée','édes','899 Ft','11,5%','0,75 l','2014','Etyeki borvidék','17')
+
+
+Vörös_bor tábla feltöltése: 
+
+INSERT INTO `voros_bor`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `borvidek`, `darab`) VALUES ('','Bezerics Cabernet Sauvignon','száraz vörösbor','1 599 Ft','13%','0,75 l','2014','Zalai Borvidék','12')
+
+INSERT INTO `voros_bor`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `borvidek`, `darab`) VALUES ('','Feind Cabernet Sauvignon','száraz vörösbor','1 499 Ft','13%','0,75 l','2014','Balatonfüred-Csopaki borvidék','11')
+
+INSERT INTO `voros_bor`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `borvidek`, `darab`) VALUES ('','Varga Merlot','édes','549 Ft','10,5%','0,75 l','2014','Badacsonyörs','21')
+
+INSERT INTO `voros_bor`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `borvidek`, `darab`) VALUES ('','Dunántúli Merlot','édes','449 Ft','11%','0,75 l','2014',' Dunántúli borvidék','13')
+
+INSERT INTO `voros_bor`(`id`, `nev`, `tipus`, `ar`, `alkoholtartalom`, `urtartalom`, `evjarat`, `borvidek`, `darab`) VALUES ('','Egri Merlot','félédes','649 Ft','12,5%','0,75 l','2014','Egri borvidék','16')	
+	
+	
+	
+	
