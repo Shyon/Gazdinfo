@@ -17,4 +17,10 @@ SMTP, sMTP mindenhol!!!
 
 Fiúkák, a kereséseket a teszt_dokumentumba rakjátok már fel!-Viki
 
+<<<<<<< HEAD
 Sikeres a keresés. Apróbb javítások belerakva. ÜDv Vencel és Dani :)
+=======
+A keresésbe kell még egy while ciklus, amely addig keres, míg meg nem találja a keresett szöveget!
+>>>>>>> 5052c8ab51339f289510febf27d29451dcb2b72b
+
+Nekem vmiért nincs meg a css, vmi tipp? Danke Vencel
