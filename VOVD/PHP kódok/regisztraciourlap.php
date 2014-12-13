@@ -2,7 +2,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title> Regisztráció </title>
-		<link rel="stylesheet" type="text/css" href="stilus.css">
+		<link rel="stylesheet" type="text/css" href="kerstilus.css">
 	</head>
 	<body>
 		<div id="gyujto">
@@ -26,7 +26,7 @@
 		</td></tr>
 		<tr>
 		<td>
-		<b>email:</b> </td><td><input type="text" name="email">
+		<b>E-mail:</b> </td><td><input type="text" name="email">
 		</td></tr>
 		</table>
 		<input type="submit" value="Regisztrál">
