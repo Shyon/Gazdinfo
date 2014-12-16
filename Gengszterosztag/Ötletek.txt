@@ -1,1 +1,12 @@
 Webshop terv:
+Ételreceptekkel foglalkozó weblap
+
+Pictures mappa néhány fotóval a kínálatból
+
+Receptek(Tuza Dániel):
+
+12.10 Recept oldal terv, rajta szerzõ, feltöltés dátuma, leírás, kép
+12.13 Részletes receptleírás
+12.15 Receptek kategorizálásának ötlete, eddigi fájlok kiegészítést igényelnek
+12.16 Kedvencek
+
