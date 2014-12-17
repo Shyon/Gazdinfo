@@ -13,3 +13,10 @@ LEVI'SZ csapat:
 -Laczkó Gergely
 -Bodnár Zoltán
 Projekt: Póló webshop
+
+Gengszterosztag csapat:
+-Montvai Zoltán
+-Ruzsom Dávid
+-Tuza Dániel
+-Mihály Bence
+Projekt: Recept webshop
