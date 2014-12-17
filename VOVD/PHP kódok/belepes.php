@@ -5,7 +5,7 @@ session_start();
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
 		<title> Belépés </title>
-		<link rel="stylesheet" type="text/css" href="stilus.css">
+		<link rel="stylesheet" type="text/css" href="kerstilus.css">
 	</head>
 	<body>
 		<div id="gyujto">

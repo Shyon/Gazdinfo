@@ -16,7 +16,7 @@ else
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title> Keresés </title>
-		<link rel="stylesheet" type="text/css" href="stilus.css">
+		<link rel="stylesheet" type="text/css" href="kerstilus.css">
 	</head>
 	<body>
 		<div id="gyujto">
@@ -26,7 +26,7 @@ else
 		<a href="keresesurlap.php"><b>Keresés</b></a>
 		<a href="listazas.php"><b>Listázás</b></a>
 		</div>
-		<table id='feltolt' border='1'>
+		<table id='keres' border='1'>
 		<tr>
 		<form action="kereses.php" method="POST" enctype="multipart/form-data">
 		<td>
