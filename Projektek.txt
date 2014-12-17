@@ -19,4 +19,5 @@ Gengszterosztag csapat:
 -Ruzsom Dávid
 -Tuza Dániel
 -Mihály Bence
+-Filkor Tamás
 Projekt: Recept webshop

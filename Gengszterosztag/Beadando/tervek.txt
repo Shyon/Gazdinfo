@@ -1,4 +1,4 @@
-1 fő az adatbázist készíti
+﻿1 fő az adatbázist készíti
 1 fő írja a css-t
 2 fő PHPben programoz (Tuza Dániel receptek)
 
@@ -19,3 +19,5 @@ Regisztráció(Ruzsom Dávid)
 
 
 12.14 Regisztrációs oldal terv (felhasználóvév, jelszó, jelszó újra,Regisztáció gomb)
+12.15 Kapcsolat létrehozása a Mysql szerverrel
+12.16 Adatok felvitele az adatbázisba
