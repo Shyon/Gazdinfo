@@ -1,3 +1,0 @@
-1 fõ az adatbázist készíti
-1 fõ írja a css-t
-2 fõ PHPben programoz (Tuza Dániel receptek)
