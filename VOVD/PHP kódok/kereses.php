@@ -30,22 +30,22 @@ if (szokeres($szo,$url))
 		/*for($i=0; $i<strlen($a); $i++){
         echo $a[$i];
 		}*/
-    if(szokeres($_POST['kerszov'],$a))
-	{ 
-		ini_set('SMTP', 'smtp.ektf.hu');
-		mail($cimzett,  
-		"Keresés",  
-		"Az Ön által keresett szöveget megtaláltuk az adott weboldalon!",  
-		"From: webkeresess@gmail.com\r\n");
-    }
-	/*else
-	{ 
-		ini_set('SMTP', 'smtp.ektf.hu');
-		mail($cimzett,  
-		"Keresés",  
-		"A keresett szöveg nem található az adott weboldalon",  
-		"From: webkeresess@gmail.com\r\n");
-    }*/
+		if(szokeres($_POST['kerszov'],$a))
+		{ 
+			ini_set('SMTP', 'smtp.ektf.hu');
+			mail($cimzett,  
+			"Keresés",  
+			"Az Ön által keresett szöveget megtaláltuk az adott weboldalon!",  
+			"From: webkeresess@gmail.com\r\n");
+		}
+		else
+		{ 
+			ini_set('SMTP', 'smtp.ektf.hu');
+			mail($cimzett,  
+			"Keresés",  
+			"A keresett szöveg nem található az adott weboldalon",  
+			"From: webkeresess@gmail.com\r\n");
+		}
 	}
 }
 else
