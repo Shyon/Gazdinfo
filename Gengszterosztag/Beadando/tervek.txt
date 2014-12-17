@@ -1,3 +1,7 @@
+1 fő az adatbázist készíti
+1 fő írja a css-t
+2 fő PHPben programoz (Tuza Dániel receptek)
+
 Webshop terv:
 Ételreceptekkel foglalkozó weblap
 
