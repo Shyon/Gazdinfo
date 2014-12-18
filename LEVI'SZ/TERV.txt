@@ -8,3 +8,4 @@ MySQL -> Felhasználók, Mezõ név: username és pass
 Adatbázis létrehozása
 Bejelentkezés 
 Regisztráció
+Kosár
