@@ -15,6 +15,7 @@ Design (Tuza Dániel)
 Hibakeresés (Tuza Dániel)
 Adatfelvitel (Ruzsom Dávid)
 Főoldal (Montvai Zoltán)
+Terméklap(Montvai Zoltán)
 Modellek elkészítése (Mihály Bence)
 Kinézetek elkészítése (Tuza Dániel, Montvai Zoltán, Ruzsom Dávid, Filkor Tamás, Mihály Bence)
 
