@@ -18,3 +18,4 @@ Regisztráció és Bejelentkezés Tesztelés
 Hibák kijavítása
 Tesztelés II
 Tesztelés III
+Projekt részlegesen kész
