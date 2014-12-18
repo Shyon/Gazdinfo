@@ -9,10 +9,11 @@ Adatbázis létrehozása
 Bejelentkezés 
 Regisztráció
 Kosár, termékek, Vásárlás
-Tesztelés
+TesztelésI
 Javítás
 Kosár újra tervezés
 Kosár tesztelés
 Regisztráció és Bejelentkezés Tesztelés
 Újra tervezés
 Hibák kijavítása
+Tesztelés II
