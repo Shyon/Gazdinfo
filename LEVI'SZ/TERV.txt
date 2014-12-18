@@ -11,3 +11,4 @@ Regisztráció
 Kosár, termékek, Vásárlás
 Tesztelés
 Javítás
+Kosár újra tervezés
