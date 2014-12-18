@@ -1,25 +1,21 @@
-﻿1 fő az adatbázist készíti
+1 fő az adatbázist készíti
 1 fő írja a css-t
-2 fő PHPben programoz (Tuza Dániel receptek)
+3 fő PHPben programoz
 
 Webshop terv:
-Ételreceptekkel foglalkozó weblap
+Egy étteremnek a webshopja (Filkor Étterem - Filkor Tamás)
 
-Pictures mappa néhány fotóval a kínálatból
+Képek keresése (Mihály Bence)
+Adatbázis készítése (Mihály Bence)
+Regisztráció elkészítése (Ruzsom Dávid)
+Bejelentkezés elkészítése (Filkor Tamás)
+Elérhetőségek elkészítése (Montvai Zoltán)
+Kosár (Filkor Tamás)
+Design (Tuza Dániel)
+Hibakeresés (Tuza Dániel)
+Adatfelvitel (Ruzsom Dávid)
+Főoldal (Montvai Zoltán)
+Terméklap(Montvai Zoltán)
+Modellek elkészítése (Mihály Bence)
+Kinézetek elkészítése (Tuza Dániel, Montvai Zoltán, Ruzsom Dávid, Filkor Tamás, Mihály Bence)
 
-Receptek(Tuza Dániel):
-
-12.10 Recept oldal terv, rajta szerző, feltöltés dátuma, leírás, kép
-12.13 Részletes receptleírás
-12.15 Receptek kategorizálásának ötlete, eddigi fájlok kiegészítést igényelnek
-12.16 Kedvencek
-
-
-Regisztráció(Ruzsom Dávid)
-
-
-12.14 Regisztrációs oldal terv (felhasználóvév, jelszó, jelszó újra,Regisztáció gomb)
-12.15 Kapcsolat létrehozása a Mysql szerverrel
-12.16 Adatok felvitele az adatbázisba
-
--
