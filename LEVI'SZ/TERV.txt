@@ -13,3 +13,4 @@ Tesztelés
 Javítás
 Kosár újra tervezés
 Kosár tesztelés
+Regisztráció és Bejelentkezés Tesztelés
