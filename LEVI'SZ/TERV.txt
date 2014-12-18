@@ -9,3 +9,4 @@ Adatbázis létrehozása
 Bejelentkezés 
 Regisztráció
 Kosár, termékek, Vásárlás
+Tesztelés
