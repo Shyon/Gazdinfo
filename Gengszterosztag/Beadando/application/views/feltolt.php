@@ -2,7 +2,7 @@
 <table>
 <form action="<?php ECHO base_url(); ?>/index.php/addnew" method="post" enctype=multipart/form-data>
 <tr>
-  <td>Póló neve: <input type="text" name="pname"></td>
+  <td>Étel neve: <input type="text" name="pname"></td>
 </tr>
 <tr>
 <td>
