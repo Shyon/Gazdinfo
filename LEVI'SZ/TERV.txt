@@ -10,3 +10,4 @@ Bejelentkezés
 Regisztráció
 Kosár, termékek, Vásárlás
 Tesztelés
+Javítás
