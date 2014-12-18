@@ -1,23 +1,23 @@
-Rˆvid leÌr·s a projektekrıl
+R√∂vid le√≠r√°s a projektekr≈ël
 
 VOVD csapat:
 -Mulyad Orsolya
--Budai ViktÛria
--S·ndor D·niel
+-Budai Vikt√≥ria
+-S√°ndor D√°niel
 -Kis Vencel
-Projekt: Webes keresı program 
+Projekt: Webes keres≈ë program 
 
 LEVI'SZ csapat:
--Szanyi Zolt·n
--Sz˚cs D·vid
--LaczkÛ Gergely
--Bodn·r Zolt·n
-Projekt: PÛlÛ webshop
+-Szanyi Zolt√°n
+-Sz≈±cs D√°vid
+-Laczk√≥ Gergely
+-Bodn√°r Zolt√°n
+Projekt: P√≥l√≥ webshop
 
 Gengszterosztag csapat:
--Montvai Zolt·n
--Ruzsom D·vid
--Tuza D·niel
--Mih·ly Bence
--Filkor Tam·s
-Projekt: Recept webshop
+-Montvai Zolt√°n
+-Ruzsom D√°vid
+-Tuza D√°niel
+-Mih√°ly Bence
+-Filkor Tam√°s
+Projekt: √âtterem webshop
